@@ -1,0 +1,70 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-weight: 200;
+
+}
+
+body {
+    padding: 35px;
+    background: #eee;
+
+}
+
+#headLine {
+    font-size: 24px;
+}
+
+button {
+    margin: 15px 0;
+    padding: 10px 40px;
+    background: rgb(70, 70, 70);
+    font-size: 20px;
+    color: #ddd;
+    outline: none;
+    border: none;
+    transition: .3s;
+}
+
+.active {
+    background: #bbb;
+}
+
+input {
+	min-width: 280px;
+    max-width: 400px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #fff;
+}
+
+button:hover {
+    background: #cfcfcf;
+    color: #333;
+}
+
+
+#alert {
+    color: rgb(250, 70, 70);
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: none;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+ul li {
+    padding: 15px;
+    transition: .5s;
+    font-size: 18px;
+    list-style: none;
+    max-width: 400px;
+    margin: 0;
+
+}
+
+ul li:hover {
+    background: #bbb;
+}
